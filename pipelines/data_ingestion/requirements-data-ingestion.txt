@@ -1,0 +1,16 @@
+# Add these to the project Python environment for data ingestion.
+cdsapi>=0.7.5
+geopandas>=1.0.1
+osmnx>=2.0.1
+planetary-computer>=1.0.0
+pystac-client>=0.8.6
+requests>=2.32.0
+shapely>=2.0.0
+
+# Optional for downstream raster processing and cloud masking.
+rasterio>=1.4.0
+xarray>=2025.1.0
+netCDF4>=1.7.2
+
+# Development and unit tests.
+pytest>=8.0.0

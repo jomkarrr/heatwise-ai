@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Data
+data/raw/
+data/processed/
+
+# Models & Outputs
+models/
+outputs/
+
+# Cache
+cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Geospatial files
+*.tif
+*.TIF
+*.nc
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+#Qgis metafile
+*.qmd
